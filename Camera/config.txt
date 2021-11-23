@@ -1,0 +1,19 @@
+{
+	
+	"program_name":"Test-Rodolpho",
+	
+	"video":{
+		"run":true,
+		"fps": 5,
+		"duration":120,
+		"wait":900,
+		"base_name":"Program_cam_video_"
+	},
+	
+	"image":{
+		"run":true,
+		"wait":60,
+		"base_name":"Program_cam_image_"
+	}
+	
+}

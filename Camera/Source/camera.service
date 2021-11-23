@@ -1,0 +1,7 @@
+[Unit]
+Description=Programme du dispositif
+[Service]
+Type=simple
+ExecStart=/bin/sh /home/pi/Camera/Source/camera.sh
+[Install]
+WantedBy=multi-user.target
